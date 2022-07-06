@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: nothing
+ * positive_or_negative  - Entry point
+ * @i: value needed.
+ * Return: absolute 0 (success)
  */
 
 void positive_or_negative(int i)
