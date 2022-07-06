@@ -4,13 +4,12 @@
 
 /**
  * positive_or_negative  - Entry point
- * @i: value needed.
+ * @n: value needed.
  * Return: absolute 0 (success)
  */
 
-void positive_or_negative(int i)
+void positive_or_negative(int n)
 {
-	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -27,5 +26,4 @@ void positive_or_negative(int i)
 		printf("%d is negative\n", n);
 	}
 
-	return (0);
 }
