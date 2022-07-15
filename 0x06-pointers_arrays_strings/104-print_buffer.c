@@ -24,7 +24,7 @@ void print_buffer(char *b, int size)
 
 		if ((i % 10 == 9) || (i + 1 == size))
 		{
-			printf(tmp, position - (i % 10 + 1), i % 10 + 1);
+			print_line(tmp, position - (i % 10 + 1), i % 10 + 1);
 			tens++;
 		}
 	}
